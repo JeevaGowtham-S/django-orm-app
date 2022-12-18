@@ -38,7 +38,6 @@ class GroceryAdmin(admin.ModelAdmin):
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
-
+ ![GitHub Logo](./images/grocery.png)
 
 ## RESULT
