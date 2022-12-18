@@ -38,6 +38,6 @@ class GroceryAdmin(admin.ModelAdmin):
 
 ## OUTPUT
 
- ![GitHub Logo](./images/grocery.png)
+ ![GitHub Logo](./images/groceryoutput.png)
 
 ## RESULT
