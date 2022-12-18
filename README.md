@@ -19,7 +19,22 @@ Write your own steps
 
 ## PROGRAM
 
-Include your code here
+'''
+from django.db import models
+from django.contrib import admin
+
+# Create your models here.
+class Grocery(models.Model):
+    brandname = models.CharField(max_length=100,primary_key= True)
+    weight = models.CharField(max_length=100)
+    mrp= models.CharField(max_length=80)
+    manufacturedate = models.DateField()
+    expiredate = models.DateField()
+
+    
+class GroceryAdmin(admin.ModelAdmin):
+    list_display = ('brandname','weight','mrp','manufacturedate','expiredate')
+'''
 
 ## OUTPUT
 
