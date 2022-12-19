@@ -10,16 +10,17 @@ Include your ER diagram here
 ## DESIGN STEPS
 
 ### STEP 1:
-
+Fork and clone the repository in to your IDE
 ### STEP 2:
-
+Cteate a django project and an aap and a superuser account and run the server.
 ### STEP 3:
-
-Write your own steps
+Modify the changes in settings and write your code on models and admin and run the server.
+### STEP 4:
+Login into admin using your superuser account and populate the records
 
 ## PROGRAM
 
-'''
+```
 from django.db import models
 from django.contrib import admin
 
@@ -34,7 +35,7 @@ class Grocery(models.Model):
     
 class GroceryAdmin(admin.ModelAdmin):
     list_display = ('brandname','weight','mrp','manufacturedate','expiredate')
-'''
+```
 
 ## OUTPUT
 
