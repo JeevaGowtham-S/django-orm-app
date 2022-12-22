@@ -37,8 +37,9 @@ class GroceryAdmin(admin.ModelAdmin):
     list_display = ('brandname','weight','mrp','manufacturedate','expiredate')
 ```
 
-## OUTPUT
-
+## OUTPUT 
  ![Output](./images/grocrey.png)
+ ![outout](./images/ER diagram.jpg)
 
-## RESULT
+## RESULT:
+Thus we developed a Django application to store and retrieve data from a database using Object Relational Mapping(ORM).
