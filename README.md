@@ -39,7 +39,7 @@ class GroceryAdmin(admin.ModelAdmin):
 
 ## OUTPUT 
  ![Output](./images/grocrey.png)
- ![Output](./images/ER diagram.png)
+ ![Output](./images/er.png)
 
 ## RESULT:
 Thus we developed a Django application to store and retrieve data from a database using Object Relational Mapping(ORM).
